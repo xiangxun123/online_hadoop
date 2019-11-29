@@ -1,0 +1,9 @@
+#spring.application.name=eureka-server
+
+#server.port=1112
+#eureka.instance.hostname=peer2
+#注册中心默认端口就是8761，也可通过下面的方式定义其他端口
+#eureka.client.serviceUrl.defaultZone=http://peer1:1111}/eureka/
+#registerWithEureka,fetchRegistry防止服务注册中心将自己注册。表示禁用客户端注册行为
+#eureka.client.registerWithEureka=false
+#eureka.client.fetchRegistry=false
